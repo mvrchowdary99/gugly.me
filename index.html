@@ -1,21 +1,41 @@
 
+<!DOCTYPE html>
   <html>
 <head>
   <title>welcome gugly</title>
 </head>
 <body>
-  <h2>gugly</h2>
+  <h2 style="color:red">gugly</h2>
   <p>welcome to gugly</p>
   <main>
-  <form action="/submit-cat-photo">
-<input type="text" name="firstname" value="enter your firstname">
-<input type="text" name="lastname" value="enter your last name">
-<input type="text" name="school"   value="enter your school name">
-<button type="submit" name="submit">submit</button>
-  <button type="reset" name ="reset">reset</button>
-  </form>
-</main>
-</boody>
+    <div>
+      <p>Things cats love:</p>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <p>Top 3 things cats hate:</p>
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+    </div>
+
+    <form action="/submit-cat-photo">
+      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+      <label><input type="checkbox" name="personality" checked> Loving</label>
+      <label><input type="checkbox" name="personality"> Lazy</label>
+      <label><input type="checkbox" name="personality"> Energetic</label><br>
+      <input type="text" placeholder="cat photo URL" required>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
+
 
 
 
