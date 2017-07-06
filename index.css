@@ -6,6 +6,13 @@
   font-size: 52px;
   font-family: Lobster;
 }
-.silver-background{
+.silver-backround{
   background-color: silver;
+  margin: 20px;
+  padding: 20px;
+}
+#cat-photo-form{
+  background-color: green;
+  margin: 20px;
+  padding: 20px;
 }
