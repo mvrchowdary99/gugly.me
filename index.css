@@ -1,18 +1,33 @@
 .small-image{
   width: 200px;
 }
-.red-text{
-  color: green;
-  font-size: 52px;
-  font-family: Lobster;
+.logo-text{
+  margin-left: 650px;
 }
-.silver-backround{
-  background-color: silver;
-  margin: 20px;
-  padding: 20px;
+.top-menu{
+margin-right: 100px;
+
 }
-#cat-photo-form{
-  background-color: green;
-  margin: 20px;
-  padding: 20px;
+li{
+  float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+body{
+  background-color: black;
 }
