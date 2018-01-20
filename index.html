@@ -1,12 +1,53 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>home</title>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="/home/mvrchowdary/projects/gugly.me/index.css">
+
 </head>
 <body>
-  <h1>Gugly</h1>
 
-  <p>HTML contains several elements that allow you to properly structure and format your content which we'll cover later, as I just said. Now, I'm going to wrap this in a paragraph tag. So instead of a heading tag, I'm going to make sure that this is all wrapped in a paragraph tag. If I can save this, go back to my preview and now I can find my paragraph. Now, don't worry about that blue line. The only reason that is showing there is because I have this text either highlighted or focused. If I click off of it and go back to it, you can kind of see how it looks like without that content being focused on.</p>
+
+  <h2 id="title">
+    <img src="/home/mvrchowdary/projects/gugly.me/pictures/logo.jpg">welcome to Gugly</h2>
+  <p style="color:green"id="demo"></p>
+  <script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+<ul>
+      <li><a href="#welcome-header">
+          Welcome
+        </a></li>
+
+        <li><a href="#About-header">
+        About us
+       </a></li>
+
+        <li><a href="#expertise-header">
+        expertise
+      </a></li>
+
+      <li><a href="#contact-header">
+        contact us
+      </a></li>
+
+
+
+
+<div id="welcome-header">
+  <img src="/home/mvrchowdary/projects/gugly.me/pictures/Keyboard-Mac.jpg" id="first" alt="welcome photo">
+</div>
+
+<div id="About-header">
+  <img src="/home/mvrchowdary/projects/gugly.me/pictures/interior.jpg" id="second" alt="welcome photo">
+</div>
+
+<div id="expertise-header">
+  <img src="/home/mvrchowdary/projects/gugly.me/pictures/bioetica.jpg" id="third" alt="welcome photo">
+</div>
+
+<div id="contact-header">
+  <img src="/home/mvrchowdary/projects/gugly.me/pictures/internet.png" id="fourth" alt="welcome photo">
+</div>
+
 </body>
 </html>
